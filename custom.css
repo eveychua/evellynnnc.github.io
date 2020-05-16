@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+@media (min-width: 800px) {
+ .leading {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#images{
+    text-align:center;
+}
+
+.header{
+    margin:0 auto;
+    padding-top: 8px;   
+}
+
+.menu {
+    overflow: hidden;
+}
+/*navigation links*/
+.menu a{
+    display:inline-block;
+    margin:0 auto;
+    padding-top:2px;
+    padding-left:50px;
+    float:center;
+    color:black;
+    text-align:center;
+    font-size:20px;
+    font-family: "montserrat", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none; 
+    font-weight:lighter;
+}
+
+.linkeffect::after {
+    content:'';
+    display:block;
+    width:0;
+    height:2px;
+    transition: width .3s;
+    background: black;
+}
+
+.linkeffect:hover::after{
+    width:100%;
+    transition: width .3s;
+}
+
+.main {
+    background-color:white;
+    font-family: "Playfair Display";
+    letter-spacing:5px;
+    display:block;
+    margin-left:15px;
+    padding-bottom:15px;
+
+}
+
+h1 {
+    margin:0px;
+    color: black;
+    font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center; 
+    padding:2px 0px 2px 20px;
+}
+
+h2{
+    color: black;
+    font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif;
+    font-size: 15px;
+    float: left; 
+    padding:2px 0px 2px 10px;
+}
+
+h4{
+    color: #fff;
+    font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif;
+    font-size:18px;
+}
+
+
+p{
+    color:#fff;
+    font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif;
+    font-size:14px;
+    padding:2px 0px 2px 20px;
+    text-transform:uppercase;
+}
+
+body {
+    margin:0px;
+    color: black;
+    font-family:"Playfair Display";
+    font-size: 12px;
+}
+
+.skillset{
+    background-color:#D58878;
+
+}
+
+.skillset-title{
+    font-family: "montserrat", sans-serif;
+    font-size:25px;
+    text-transform:uppercase;
+    margin-left:10px;
+    letter-spacing:2px;
+    margin-bottom:0px;
+    float:left;
+    clear:none; 
+    padding-top:5px;
+    text-decoration:underline;
+}
+
+.feature-title{
+    font-family: "montserrat", sans-serif;
+    padding-top:5px;
+    padding-left:70px;
+    font-size:12px;
+    color:#fff;
+}
+
+.feature-content{
+    font-family: "montserrat", sans-serif;
+    padding-top:-3px;
+    padding-left:65px;
+    color:#fff;
+    float: 
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+/*
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+*/
